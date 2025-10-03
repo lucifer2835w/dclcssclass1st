@@ -1,0 +1,14 @@
+#head{
+    color: red;
+    text-transform: capitalize;
+    text-decoration-line: underline;
+    text-align: end;
+    text-align: end;
+    text-align: start;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+p{
+    text-align: justify;
+
+}
