@@ -75,3 +75,38 @@ background-color: #333;
       margin-right: auto;
       width: 300px;
 }
+.container {
+    display: flex;            /* Puts all children in a row */
+    justify-content: center;  /* Center them horizontally */
+    align-items: flex-start;  /* Align at the top */
+    gap: 20px;                /* Space between cards */
+}
+
+.card {
+    background: #333;;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    text-align: center;
+    width:350px;             /* Fixed width so they align nicely */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+
+.card img {
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.card h2 a {
+    text-decoration: none;
+    color: #e63946;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 14px;
+    color: #333;
+}
+
